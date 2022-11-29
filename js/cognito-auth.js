@@ -100,9 +100,9 @@ var WildRydes = window.WildRydes || {};
         });
     }
 
-    function toUsername(email) {
-        return email.replace('@', '-at-');
-    }
+   function toUsername(email) {
+    return email;
+   }
 
     /*
      *  Event Handlers
